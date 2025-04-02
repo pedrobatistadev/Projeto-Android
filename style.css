@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+    font-family: "Idroid";
+    src: url(fontes/idroid.otf) format(opentype);
+}
 
 * {
     margin: 0px;
@@ -6,4 +10,48 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.titulo-transparente {
+    background-image: linear-gradient(to right, #C7ECD8, transparent);
+    font-family: "Idroid";
+    color: #316E4C;
+}
+
+p.texto {
+    text-align: justify;
+    text-indent: 40px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3BD47F, #1A5B37);
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+header > p {
+    margin-top: 20px;
+}
+
+nav {
+    background-color: #1A5C38;
+    padding: 12px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 9px;
+    border-radius: 5px;
+    transition-duration: 1s;
+
+}
+
+nav > a:hover {
+    cursor: pointer;
+    background-color: #31a163;
+    transition-duration: 1s;
 }
