@@ -92,8 +92,7 @@ main {
 img {
     display: block;
     margin: auto;
-    max-width: 950px;
-    min-width: 320px;
+    width: 100%;
 }
 
 
