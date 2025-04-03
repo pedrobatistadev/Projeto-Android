@@ -89,11 +89,30 @@ main {
 
 }
 
-img {
+img.dandroids {
     display: block;
     margin: auto;
     width: 100%;
 }
 
+img.irina {
+    width: 100%;
+    margin-top: 10px;
+}
+
+img.bugdroids {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+div.video {
+    width: 600px;
+    margin: auto;
+}
+
+div.video > iframe {
+    padding: 30px;
+}
 
 
