@@ -57,8 +57,6 @@ header>p {
 nav {
     background-color: #1A5C38;
     padding: 12px;
-    position: sticky;
-    top: 0;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.336);
 }
 
@@ -107,18 +105,18 @@ img.bugdroids {
 }
 
 div.video {
-    height: 500px;
     background-color: #1A5C38;
-    padding: 20px 0px;
+    padding: 20px;
     position: relative;
-    left: 130px;
-    max-width: 940px;
-    min-width: 320px;
+    margin: 0px -20px 0px -20px;
+    padding-bottom: 50%;
 }
 
 div.video > iframe {
     position: absolute;
-    right: 48px;
+    width: 90%;
+    height: 90%;
+    left: 4%;
 }
 
 aside {
