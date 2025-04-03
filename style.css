@@ -107,10 +107,13 @@ img.bugdroids {
 }
 
 div.video {
-    width: 600px;
+    width: 560px;
+    height: 315px;
     background-color: #1A5C38;
     position: relative;
-    left: 190px;
+    left: -20px;
+    right: 150px;
+    padding: 10px 215px;
 }
 
 div.video>iframe {
